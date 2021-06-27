@@ -330,10 +330,6 @@ p {
 
 /* INICIO CCS Galeria */
 
-.galeria-1 {
-  background-image: url(imagenes/Fondoweb.jpeg);
-}
-
 .Volver-galeria {
   font-size: 15px;
   display: flex;
