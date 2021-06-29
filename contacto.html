@@ -15,7 +15,23 @@
         </div>
 
         <section class="absolute-campos">
-            <p>Nombre(*):   </p>
+
+            <form action="enviar.php" method="POST" name="contact-form">
+                <label for="name">Nombre</label>
+                <input type="text" id="name" name="nombre">
+        
+                <label for="mail">Email</label>
+                <input type="email" name="email" id="mail">
+        
+                <label for="">Asunto</label>
+                <input type="Subject" id="asunto" name="asunto">
+        
+                <label for="mensaje" class="comentarios">Mensaje</label>
+                <textarea name="" id="mensaje" cols="30" rows="10"></textarea>
+        
+                <input type="submit" value="enviar">
+            </form>
+           <!--  <p>Nombre(*):   </p>
             <p>
             <input type="text" name="nombre" id="nombreid" placeholder="Escribe tu nombre">
             </p>
@@ -27,7 +43,7 @@
             <p>Comentarios:</p>
             <input type="text" name="comentarios" id="idcoment" placeholder="Escribinos tus comentarios" class="input-comentarios">
             </div>   
-            <input type="button" value="Enviar">
+            <input type="button" value="Enviar"> -->
        </section>
       
         <section>
