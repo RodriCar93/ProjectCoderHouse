@@ -239,8 +239,11 @@ p {
   margin-bottom: 200px;
   color: white;
   position: relative;
-  font-size: 30px;  
-  bottom: 0px;
+  font-size: 30px;
+  bottom: 500px;
+  left: 500px;
+  width: 1000px;
+  height: 100px;
 }
 
 /* Estilos y parametros para seccion de Detalle de Productos */
