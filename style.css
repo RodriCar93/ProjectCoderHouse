@@ -239,7 +239,8 @@ p {
   margin-bottom: 200px;
   color: white;
   position: relative;
-  font-size: 30px;
+  font-size: 30px;  
+  bottom: 0px;
 }
 
 /* Estilos y parametros para seccion de Detalle de Productos */
@@ -260,12 +261,12 @@ p {
 }
 
 .VINTAGE {
-  position: relative;
+  position: absolute;
   display: flex;
   justify-content: start;
   font-size: 20px;
+  top: 2170px;
   left: 100px;
-  top: 10px;
 }
 .FRANKIE {
   position: absolute;
