@@ -681,3 +681,52 @@ video {
 }
 
 /* Fin CSS New Arrivals */
+
+/* INicio de Page 404error */
+
+.p-error {
+	font-weight: 800;
+	color: #8d8d8f;
+	text-align: center;
+	font-size: 50px;
+	padding-top: 20px;
+  display: flex;
+  position: absolute;
+  top: 400px;
+  left: 300px;
+  background-color: #f3f3f3 ;
+	
+	@media screen and (max-width: 400px) {
+		padding-left: 20px;
+		padding-right: 20px;
+		font-size: 2em;
+  	}
+}
+
+.btn {
+	font-family: "Open Sans";
+	font-weight: 400;
+	padding: 20px;
+	background-color: transparent;
+	color: white;
+	width: 320px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 25px;
+	border-radius: 5px;
+	cursor: pointer; 
+	margin-top: 80px;
+	margin-bottom: 50px;
+	text-decoration: none;
+  position: relative;
+  bottom: 200px;
+  left: 100px ;
+}
+
+.img-error{
+  position: relative;
+  left: 600px;
+}
+
+
+/* FInal Page error 404 */
