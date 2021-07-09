@@ -1,11 +1,19 @@
 {
   "name": "clear",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RodriCar93/ProjectCoderHouse.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RodriCar93/ProjectCoderHouse/issues"
+  },
+  "homepage": "https://github.com/RodriCar93/ProjectCoderHouse#readme",
+  "description": ""
 }

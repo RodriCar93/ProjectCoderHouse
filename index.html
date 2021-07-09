@@ -1,66 +1,70 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <!-- Conjunto de Caracteres Universal -->
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+     <!-- Conjunto de Caracteres Universal -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Como se amolda el sitio a los distintos dispositivos -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <!--  CSS  -->
-    <link rel="stylesheet" href="style.css" />
-    <title>LUCIE Argentina | The Best Collection Online</title>
-
-    <!-- Fonts -->
+     <!--  CSS  -->
+     <link rel="stylesheet" href="style.css">
+     <title>LUCIE Argentina | The Best Collection Online</title>
+     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-      <link
-        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Staatliches&display=swap"
-        rel="stylesheet"
-      />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fuggles&display=swap"
+      rel="stylesheet"
+    />
   </head>
+</html>
   <body class="body">
     <header>
-      <!-- Encabezados Principal -->
-      <!-- Logo Principal - Enfoque de pagina middle -->
-
-      <img src="Imagenes/Logo.jpg" alt="Logo Brand" class="borde-redondeado" />
-
-      <!-- Panel De Navegación izquierdo-->
-      <nav class="menu-container">
-        <div>
-          <div class="navegador">
-            <a href="galeria.html" class="galeria" style="bottom: 130px"
-              >Galeria</a
-            >
-            <a
-              href="newarrivals.html"
-              class="new-arrivals"
-              style="bottom: 130px; left: 70px"
-              >New Arrivals</a
-            >
-            <a href="nosotros.html" class="nosotros">
-              <!-- style="bottom: 130px; left: 120px" -->
-              Nosotros</a
-            >
-          </div>
+      <nav class="navbar navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand font-weight-bold" href="index.html">
+          </a>
+          <h2 class="logo-item text-md-center"> 
+            LUCIE     
+          </h2>
         </div>
       </nav>
-
-      <!-- Panel de Navegación Derecho -->
-      <nav>
-        <a
-          href="contacto.html"
-          class="contacto"
-          style="right: 10px; left: 1600px; top: auto; bottom: 190px"
-          >Contacto</a
-        >
-        <a
-          href="#ubicacion"
-          class="ubicacion"
-          style="left: 1200px; bottom: 190px"
-          >Ubicación</a
-        >
+          <!-- Panel de NAV -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            Home
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse links" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active links" aria-current="page" href="galeria.html">Galeria</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link links" aria-current="page" href="newarrivals.html">New Arrivals</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link links" aria-current="page" href="nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link links" aria-current="page" href="#ubicacion" tabindex="-1" aria-disabled="true">Ubicación</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link links" aria-current="page" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </header>
 
@@ -92,11 +96,10 @@
           </div>
         </div>
       </div>
-    </section>
-    <!-- Parrrafo de Imagen de Entrada -->
-    <div class="row">
-      <div class="col-lg-4 col-sm-12 d-flex align-item-center">
-        <p class="text-center p-2">
+      <!-- Parrrafo de Imagen de Entrada -->
+    <div class="container">
+      <div class="row">
+        <p class="parrafo1">
           Todas nuestras piezas están diseñadas y fabricadas en BA. Estamos
           trabajando para obtener todos nuestros tejidos de textiles nacionales.
           Esto significa que todos los tejidos que usamos serán tejidos en
@@ -105,48 +108,62 @@
           nacional.
         </p>
       </div>
+      </div>
+      <!-- Carousel con JS y Bootstrap -->
     </div>
+      <div id="carouselExampleControls" class="carousel slide pb-3" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Imagenes/carousel1.png" class="d-block w-100 p-3" style="border-radius: 40px;" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="Imagenes/carosuel2.png" class="d-block w-100 p-3" style="border-radius: 40px;" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev w-25 p-3" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next w-25 p-3" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+        
+    
 
     <!-- Seccion de Coleccion Invierno -->
     <section>
       <h2 class="text-center Tendencia-Titulo">Tendencia</h2>
-      <div class="card-container">
-        <div class="image-card perspective-left">
-          <img
-            src="Imagenes/Imagen3.png"
-            alt="Imagen Invierno 3"
-            class="imagenvisual"
-          />
-        </div>
-        <div class="img-central">
-          <img
-            src="Imagenes/imagen4.png"
-            alt="Imagen Invierno 4"
-            class="imagenvisual"
-          />
-        </div>
-        <div class="image-card perspective-right">
-          <img
-            src="Imagenes/imagen5.png"
-            alt="Imagen Invierno 5"
-            class="imagenvisual"
-          />
-          />
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+          <div class="card" style="width: 18rem;">
+            <img src="Imagenes/Imagen3.png" class="card-img-top" style="border-radius: 50px;" alt="...">
+            <div class="card-body">
+              <h5 class="card-title" style="color: white;">LUCIE - VINTAGE BLACK</h5>
+            </div>
+          </div>
+          <div class="col-lg-4">
+          <div class="card" style="width: 18rem;">
+            <img src="Imagenes/imagen4.png" style="border-radius: 50px;" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title" style="color: white;">FRANKIE SWEATSHIRT - WHITE </h5>
+            </div>
+          </div>
         </div>
       </div>
-    </section>
-
-    <!-- Detalle de cada Producto -->
-    <!-- Agregado con FLEXBOX en CSS -->
-    <div class="Detalle-Producto">
-      <p class="VINTAGE">LUCIE - VINTAGE BLACK</p>
-      <div><p class="FRANKIE">FRANKIE SWEATSHIRT - WHITE</p></div>
-      <p class="CARRIE">LUCIE CARRIE - BLACK</p>
     </div>
-
-    <br />
-    <br />
-
+  </div>
+      </div>
+    </div>
+   </section>
+    <br>
+</section>
+<br>
+<br>
+<br>
     <!-- Mapa Interactivo -->
     <section id="ubicacion" class="mapa">
       <iframe
@@ -163,33 +180,49 @@
     </section>
 
     <!-- Pie de la pagina -->
-    <footer style="float: right">
+    <footer>
       <img
-        src="Imagenes/facebook.png"
-        class="facebooklogo"
-        alt="LogoFacebook"
-        style="width: 40px; border-radius: 40px; margin: 5px"
-      />
-      <!-- Etiquetas Absolutas -->
-      <a
-        href="https://www.facebook.com/Lucie-Collections-101500998813377/"
-        target="_blank"
-        class="facebook"
-        >Facebook</a
-      >
-      <img
-        src="https://i.ibb.co/nBxZwyh/gratis-png-inicio-de-sesion-en-redes-sociales-instagram-ig-icono-de-instagram.png"
-        style="width: 40px; border-radius: 40px; margin: 5px"
-        alt="Logo IG"
-      />
-      <a
-        href="https://www.instagram.com/lucie.collections/"
-        class="instagram"
-        target="_blank"
-        >Instagram</a
-      >
+      src="Imagenes/facebook.png"
+      class="facebooklogo"
+      alt="LogoFacebook"
+      style="width: 40px; border-radius: 40px; margin: 5px"
+    />
+    <!-- Etiquetas Absolutas -->
+    <a
+      href="https://www.facebook.com/Lucie-Collections-101500998813377/"
+      target="_blank"
+      class="facebook"
+      >Facebook</a
+    >
+    <img
+      src="https://i.ibb.co/nBxZwyh/gratis-png-inicio-de-sesion-en-redes-sociales-instagram-ig-icono-de-instagram.png"
+      style="width: 40px; border-radius: 40px; margin: 5px"
+      alt="Logo IG"
+    />
+    <a
+      href="https://www.instagram.com/lucie.collections/"
+      class="instagram"
+      target="_blank"
+      >Instagram</a
+    >
+      <!-- Menu -->
+      <ul class="menu">
+        <li style="color: white;">&copy; Lucie. Todos los derechos reservados.</li>
+        <li style="color: white;">Design: <a href="https://www.linkedin.com/in/rodrigo-cardenas-18a75b10a/">Rodrigo Cardenas</a></li>
+      </ul>
     </footer>
 
-    <div class="date">03 de Julio 2021</div>
+    <div class="date">08 de Julio 2021</div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
   </body>
 </html>

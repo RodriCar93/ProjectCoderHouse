@@ -15,35 +15,37 @@
         </div>
 
         <section class="absolute-campos">
-
-            <form action="enviar.php" method="POST" name="contact-form">
-                <label for="name">Nombre</label>
-                <input type="text" id="name" name="nombre">
-        
-                <label for="mail">Email</label>
-                <input type="email" name="email" id="mail">
-        
-                <label for="">Asunto</label>
-                <input type="Subject" id="asunto" name="asunto">
-        
-                <label for="mensaje" class="comentarios">Mensaje</label>
-                <textarea name="" id="mensaje" cols="30" rows="10"></textarea>
-        
-                <input type="submit" value="enviar">
-            </form>
-           <!--  <p>Nombre(*):   </p>
-            <p>
-            <input type="text" name="nombre" id="nombreid" placeholder="Escribe tu nombre">
-            </p>
-            <p>Email(*):</p>
-            <p>
-            <input type="email" name="email" id="idemail" placeholder="Email@">
-            </p>
-            <div class="comentarios">
-            <p>Comentarios:</p>
-            <input type="text" name="comentarios" id="idcoment" placeholder="Escribinos tus comentarios" class="input-comentarios">
-            </div>   
-            <input type="button" value="Enviar"> -->
+            <section id="contact" class="main style3 secondary">
+                <div class="content">
+                  <header>
+                    <p>
+                      Para cualquier consulta o comentarios !Por Favor Escribinos!.
+                    </p>
+                  </header>
+                  <div class="box">
+                    <form method="post" action="#">
+                      <div class="fields">
+                        <div class="field half">
+                          <input type="text" name="name" placeholder="Name" />
+                        </div>
+                        <div class="field half">
+                          <input type="email" name="email" placeholder="Email" />
+                        </div>
+                        <div class="field">
+                          <textarea
+                            name="message"
+                            placeholder="Message"
+                            rows="6"
+                          ></textarea>
+                        </div>
+                      </div>
+                      <ul class="actions special">
+                        <li><input type="submit" value="Send Message" /></li>
+                      </ul>
+                    </form>
+                  </div>
+                </div>
+              </section>
        </section>
       
         <section>
