@@ -793,7 +793,7 @@
 
   /* Medias Queries */
 
-  @media only screen and (max-width: 1280px)  {
+  @media only screen and (max-width: 1250px)  {
     .parrafo1{
         margin: 0 20px 90px 18px;
         margin-bottom: 200px;
@@ -805,4 +805,164 @@
         width: 500px;
         height: 100px;
     }
+    .Tendencia-Titulo {
+        position: absolute;
+        justify-content: center;
+        font-size: 50px;
+        display: flex;
+        top: 1030px;
+        right: 550px;
+        font-family: "Dancing Script", cursive;
+        font-family: "Staatliches", cursive;
+        font-weight: bold;
+        color: white;
+      }
+  }
+
+  /* IPAD PRO */
+  @media only screen and (max-width: 1024px){
+    .Tendencia-Titulo {
+        position: absolute;
+        justify-content: center;
+        font-size: 50px;
+        display: flex;
+        top: 815px;
+        right: 410px;
+        font-family: "Dancing Script", cursive;
+        font-family: "Staatliches", cursive;
+        font-weight: bold;
+        color: white;
+      }
+      .parrafo1 {
+        margin: 0 20px 90px 18px;
+        margin-bottom: 200px;
+        color: white;
+        position: absolute;
+        font-size: 20px;
+        bottom: 600px;
+        left: 450px;
+        width: 500px;
+        height: 100px;
+    }
+    .boton-newsletter {
+        position: relative;
+        bottom: 100px;
+        right: 105px;
+    }
+    .animated-border-button {
+        background-color: #e1c3a9;
+        border: none;
+        color: #ffffff;
+        outline: none;
+        padding: 12px 40px 10px;
+        position: relative;
+        bottom: 200px;
+        left: 100px;
+        z-index: 2;
+    }
+    .boton-newsletter {
+        position: relative;
+        bottom: 100px;
+        left: 0px;
+    }
+    .nosotros-img {
+        padding-right: 50px;
+        margin-left: 510px;
+        border-radius: 30px;
+        position: absolute;
+        right: 100px;
+        top: 100px;
+    }
+    .P-Nosotros {
+        font-size: 25px;
+        position: absolute;
+        top: 700px;
+        margin: 100px;
+    }
+    .nosotros-volver {
+        font-size: 25px;
+        text-decoration: none;
+        position: absolute;
+        top: 1000px;
+        right: 150px;
+        color: white;
+    }
+    .nosotros-title {
+        font-size: 50px;
+        font-family: "Dancing Script", cursive;
+        font-family: "Staatliches", cursive;
+        font-weight: bold;
+        position: absolute;
+        right: 450px;
+    }
+    .animated-border-button {
+        background-color: #e1c3a9;
+        border: none;
+        color: #ffffff;
+        outline: none;
+        padding: 12px 40px 10px;
+        position: relative;
+        bottom: 200px;
+        left: 103px;
+        z-index: 2;
+    }
+    .boton-newsletter {
+        position: relative;
+        bottom: 100px;
+        right: 60px;
+    }
+    .parrafo1 {
+        /* margin: 0 20px 90px 18px; */
+        /* margin-bottom: 200px; */
+        color: white;
+        position: absolute;
+        font-size: 23px;
+        bottom: 650px;
+        left: 450px;
+        width: 500px;
+        height: 100px;
+    }
+    .Tendencia-Titulo {
+        position: absolute;
+        justify-content: center;
+        font-size: 50px;
+        display: flex;
+        top: 815px;
+        right: 450px;
+        font-family: "Dancing Script", cursive;
+        font-family: "Staatliches", cursive;
+        font-weight: bold;
+        color: white;
+    }
+    
+    
+    
+  }
+
+  @media only screen and (max-width: 375px){
+    .parrafo1 {
+        /* margin: 0; */
+        /* margin-bottom: 0; */
+        color: white;
+        position: absolute;
+        font-size: 16px;
+        bottom: 110px;
+        left: auto;
+        width: 500px;
+        height: 100px;
+    }
+
+    .tipo1gira {
+        border-radius: 50px;
+        position: relative;
+        right: 100px;
+    }
+
+    .boton-newsletter {
+        position: relative;
+        bottom: 5px;
+        left: 25px;
+    }
+    
+    
   }
