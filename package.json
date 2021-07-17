@@ -15,5 +15,9 @@
     "url": "https://github.com/RodriCar93/ProjectCoderHouse/issues"
   },
   "homepage": "https://github.com/RodriCar93/ProjectCoderHouse#readme",
-  "description": ""
+  "description": "Desarrollo WEB Camada 16605\r <h1 align=\"center\">Hi 👋, I'm Rodrigo Cardenas</h1>\r <h3 align=\"center\">A passionate FullStack developer from Argentina.</h3>",
+  "devDependencies": {
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.12"
+  }
 }
