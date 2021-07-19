@@ -198,43 +198,7 @@ p {
   color: #ffffff;
   outline: none;
   padding: 12px 40px 10px;
-  position: relative;
-  bottom: 200px;
-  left: 1000px;
   z-index: 2;
-}
-
-.animated-border-button:before,
-.animated-border-button:after {
-  border: 0 solid transparent;
-  transition: all 0.3s;
-  content: "";
-  height: 0;
-  position: absolute;
-  width: 24px;
-}
-
-.animated-border-button:before {
-  border-top: 2px solid gold;
-  right: 0;
-  top: -4px;
-}
-
-.animated-border-button:after {
-  border-bottom: 2px solid gold;
-  bottom: -4px;
-  left: 0;
-}
-
-.animated-border-button:hover:before,
-.animated-border-button:hover:after {
-  width: 100%;
-}
-
-.boton-newsletter {
-  position: relative;
-  bottom: 100px;
-  left: 835px;
 }
 
 /* Fin de Animación Boton Newsletter */
@@ -264,12 +228,6 @@ p {
 /* Apartado con FLEXBOX */
 /* Titulo de Tendencia */
 .Tendencia-Titulo {
-  position: absolute;
-  justify-content: center;
-  font-size: 50px;
-  display: flex;
-  top: 1000px;
-  right: 900px;
   font-family: "Dancing Script", cursive;
   font-family: "Staatliches", cursive;
   font-weight: bold;
@@ -354,16 +312,16 @@ p {
 }
 
 /* .img-central {
-  top: 2190px;
-  left: 700px;
-} */
+    top: 2190px;
+    left: 700px;
+  } */
 /* Fin de Transision y Proyecto 2° */
 /* INICIO CCS Galeria */
 .Volver-galeria {
   font-size: 15px;
   display: flex;
   position: absolute;
-  top: 80px;
+  top: 170px;
   text-decoration: none;
   color: white;
   font-size: 15px;
@@ -383,8 +341,6 @@ p {
   min-width: 500px;
   max-width: 800px;
   width: 100%;
-  position: relative;
-  justify-content: center;
   left: 550px;
   border-radius: 20px;
 }
@@ -416,103 +372,30 @@ p {
   color: wheat;
 }
 
-/* Apartado FLEX BOX - GALERIA*/
-.flex-container {
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-content: center;
-  -ms-flex-line-pack: center;
-  align-content: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.flex-item:nth-child(1) {
-  -webkit-order: 0;
-  -ms-flex-order: 0;
-  order: 0;
-  -webkit-flex: 0 1 auto;
-  -ms-flex: 0 1 auto;
-  flex: 0 1 auto;
-  -webkit-align-self: auto;
-  -ms-flex-item-align: auto;
-  align-self: auto;
-  border-radius: 20px;
-}
-
-.flex-item:nth-child(2) {
-  -webkit-order: 0;
-  -ms-flex-order: 0;
-  order: 0;
-  -webkit-flex: 0 1 auto;
-  -ms-flex: 0 1 auto;
-  flex: 0 1 auto;
-  -webkit-align-self: auto;
-  -ms-flex-item-align: auto;
-  align-self: auto;
-  border-radius: 20px;
-}
-
-.flex-item:nth-child(3) {
-  -webkit-order: 0;
-  -ms-flex-order: 0;
-  order: 0;
-  -webkit-flex: 0 1 auto;
-  -ms-flex: 0 1 auto;
-  flex: 0 1 auto;
-  -webkit-align-self: auto;
-  -ms-flex-item-align: auto;
-  align-self: auto;
-  border-radius: 20px;
-}
-
+/* INICIO ESTILO -  GALERIA*/
 .flex-text1 {
   display: flex;
-  position: absolute;
+  position: relative;
   font-size: 50px;
-  bottom: 10px;
-  left: 650px;
+  bottom: 350px;
+  margin-right: 1380px;
+  left: 720px;
   color: #8d8d8f;
   background-color: #f3f3f3;
 }
 
 .flex-text {
-  display: flex;
   position: absolute;
   font-size: 18.5px;
-  bottom: 1px;
-  left: 850px;
+  top: 1265px;
+  left: 915px;
+  margin-right: auto;
   color: #8d8d8f;
   background-color: #f3f3f3;
 }
 
-/* FIN FLEX BOX - GALERIA */
-/* APLICO DE GRID  - INICIO GALERIA*/
-.wrapper {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
-  grid-auto-rows: minmax(100px, auto);
-  row-gap: 100px;
-  column-gap: 100px;
-}
-
-.collage {
-  border-radius: 20px;
-}
-
-/* FIN DE CCS GRID */
+/* FIN ESTILO - GALERIA */
+/* Inicio CSS Page Nosotros */
 .nosotros-img {
   padding-right: 50px;
   margin-left: 600px;
@@ -520,11 +403,10 @@ p {
 }
 
 .nosotros-title {
-  font-size: 25px;
-  margin-left: 900px;
   font-family: "Dancing Script", cursive;
   font-family: "Staatliches", cursive;
   font-weight: bold;
+  color: white;
 }
 
 .P-Nosotros {
@@ -536,13 +418,11 @@ p {
 }
 
 .nosotros-volver {
-  font-size: 25px;
-  margin-left: 500px;
-  margin-right: 500px;
-  margin-top: 50px;
-  margin-bottom: 50px;
   color: white;
   text-decoration: none;
+  font-family: "Dancing Script", cursive;
+  font-family: "Staatliches", cursive;
+  font-weight: bold;
 }
 
 .nosotros-volver:hover {
@@ -662,14 +542,29 @@ video {
   border-style: double;
 }
 
+/* Start: Google Maps Responsive */
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 400px;
+  /*Reduce este valor si el mapa fuera muy alto, por ejemplo 250px, puedes usar porcentajes, 50%*/
+  position: relative;
+  height: 0;
+}
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+/* End: Google Maps Responsive */
 /* Añado Fecha con FlexBOX */
 .date {
   font-size: 30px;
-  width: 900px;
   color: #e1c3a9;
-  display: flex;
-  bottom: 0;
-  right: 0;
+  position: absolute;
 }
 
 /* New Arribal Inicio CSS */
@@ -687,6 +582,9 @@ video {
 .arrivals-top {
   color: white;
   font-size: 50px;
+  font-family: "Dancing Script", cursive;
+  font-family: "Staatliches", cursive;
+  font-weight: bold;
 }
 
 .imagen2-new {
@@ -705,10 +603,6 @@ video {
 
 .lucie-white {
   color: white;
-  /* font-size: 40px; */
-  /* position: absolute;
-  top: 800px;
-  left: 150px; */
 }
 
 .lucie-vintange {
@@ -804,29 +698,6 @@ video {
     height: 100px;
   }
 
-  .Tendencia-Titulo {
-    position: absolute;
-    font-size: 50px;
-    top: 810px;
-    right: 550px;
-    font-family: "Dancing Script", cursive;
-    font-family: "Staatliches", cursive;
-    font-weight: bold;
-    color: white;
-  }
-
-  .animated-border-button {
-    background-color: #e1c3a9;
-    border: none;
-    color: #ffffff;
-    outline: none;
-    padding: 12px 40px 10px;
-    position: relative;
-    bottom: 200px;
-    left: 200px;
-    z-index: 2;
-  }
-
   .boton-newsletter {
     position: relative;
     bottom: 100px;
@@ -835,19 +706,6 @@ video {
 }
 /* IPAD PRO */
 @media only screen and (max-width: 1024px) {
-  .Tendencia-Titulo {
-    position: absolute;
-    justify-content: center;
-    font-size: 50px;
-    display: flex;
-    top: 815px;
-    right: 410px;
-    font-family: "Dancing Script", cursive;
-    font-family: "Staatliches", cursive;
-    font-weight: bold;
-    color: white;
-  }
-
   .parrafo1 {
     margin: 0 20px 90px 18px;
     margin-bottom: 200px;
@@ -866,22 +724,10 @@ video {
     right: 105px;
   }
 
-  .animated-border-button {
-    background-color: #e1c3a9;
-    border: none;
-    color: #ffffff;
-    outline: none;
-    padding: 12px 40px 10px;
-    position: relative;
-    bottom: 200px;
-    left: 100px;
-    z-index: 2;
-  }
-
   .boton-newsletter {
     position: relative;
     bottom: 100px;
-    left: 0px;
+    left: 585px;
   }
 
   .nosotros-img {
@@ -900,36 +746,6 @@ video {
     margin: 100px;
   }
 
-  .nosotros-volver {
-    font-size: 25px;
-    text-decoration: none;
-    position: absolute;
-    top: 1000px;
-    right: 150px;
-    color: white;
-  }
-
-  .nosotros-title {
-    font-size: 50px;
-    font-family: "Dancing Script", cursive;
-    font-family: "Staatliches", cursive;
-    font-weight: bold;
-    position: absolute;
-    right: 450px;
-  }
-
-  .animated-border-button {
-    background-color: #e1c3a9;
-    border: none;
-    color: #ffffff;
-    outline: none;
-    padding: 12px 40px 10px;
-    position: relative;
-    bottom: 200px;
-    left: 103px;
-    z-index: 2;
-  }
-
   .boton-newsletter {
     position: relative;
     bottom: 100px;
@@ -937,8 +753,6 @@ video {
   }
 
   .parrafo1 {
-    /* margin: 0 20px 90px 18px; */
-    /* margin-bottom: 200px; */
     color: white;
     position: absolute;
     font-size: 23px;
@@ -946,19 +760,6 @@ video {
     left: 450px;
     width: 500px;
     height: 100px;
-  }
-
-  .Tendencia-Titulo {
-    position: absolute;
-    justify-content: center;
-    font-size: 50px;
-    display: flex;
-    top: 815px;
-    right: 450px;
-    font-family: "Dancing Script", cursive;
-    font-family: "Staatliches", cursive;
-    font-weight: bold;
-    color: white;
   }
 }
 @media only screen and (max-width: 375px) {
@@ -985,16 +786,25 @@ video {
     left: 25px;
   }
 
-  .animated-border-button {
-    background-color: #e1c3a9;
-    border: none;
-    color: #ffffff;
-    outline: none;
-    padding: 12px 40px 10px;
+  .flex-text1 {
+    display: flex;
     position: relative;
-    bottom: 5px;
-    left: 10px;
-    z-index: 2;
+    font-size: 35px;
+    bottom: 405px;
+    margin-right: auto;
+    left: 515px;
+    color: #8d8d8f;
+    background-color: #f3f3f3;
+  }
+
+  .flex-text {
+    position: absolute;
+    font-size: 35px;
+    top: 1000px;
+    left: 650px;
+    margin-right: auto;
+    color: #8d8d8f;
+    background-color: #f3f3f3;
   }
 }
 

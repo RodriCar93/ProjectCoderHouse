@@ -1,109 +1,225 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
     <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <title>Galeria</title>
-</head>
-<body class="body">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fuggles&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="body">
     <header>
-        <Div class="galeria-top">
-            <h2>Season 1 | Summer</h2>
-            <h3>Lucie Simple Street</h3>
-        </Div>  
-
-
-        <figure class="hover-rotate">
-            <img src="Imagenes/imagen1.jpg"/>
-          </figure>
-
-        <!-- <div class="card-galeria">
-            <img src="imagenes/imagen1.jpg" alt="Modelo 1" class="img-galeria">
+      <div>
+        <nav class="navbar navbar-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand font-weight-bold" href="index.html"> </a>
+            <h2 class="logo-item text-md-center">LUCIE</h2>
+          </div>
+        </nav>
+      </div>
+      <section class="container text-center">
+        <div class="galeria-top">
+          <h2>Season 1 | Summer</h2>
+          <h3>Lucie Simple Street</h3>
         </div>
+      </section>
 
-        <div class="focus-content">
-            <h3>Detalles</h4>
-    
-            <p>Lucie Simple Street presenta un cuello redondo clásico y un estilo largo que se encuentra debajo de la cintura natural.</p>
-    
-            <h3>Cuidado</h4>
-            <ul>
-                <li>Lavar a máquina en frío</li>
-                <li>Colocar plano para secar / limpiar en seco</li>
-            </ul>
-        </div>   -->
-        
+      <div>
+        <a href="index.html" class="Volver-galeria"> Home</a>
+      </div>
+      <br />
+      <!-- Imagen con efecto/Transición -->
+      <section class="container">
+        <div class="d-flex justify-content-center">
+          <div class="p-2">
+            <figure class="hover-rotate">
+              <img
+                src="Imagenes/imagen1.jpg"
+                class="img-fluid mx-auto d-block"
+              />
+            </figure>
+          </div>
+        </div>
+      </section>
+    </header>
+    <br />
+    <br />
+    <br />
+    <br />
 
+    <!-- Añadi Flex BOX a mi Galeria  -->
+    <section class="container">
+      <div class="d-flex flex-row">
+        <div class="p-2">
+          <img
+            src="Imagenes/ImagenFlexbox.png"
+            alt="Imagen modelo 1"
+            style="border-radius: 50px"
+          />
+        </div>
+        <div class="p-2">
+          <img
+            src="Imagenes/ImagenFlexBox2.png"
+            alt="Imagen modelo 2"
+            style="border-radius: 50px"
+          />
+        </div>
+        <div class="p-2">
+          <img
+            src="Imagenes/ImagenFlexBox3.png "
+            alt="Imagen Modelo 3"
+            style="border-radius: 50px"
+          />
+        </div>
+      </div>
+    </section>
 
-        <!-- Etiqueta Relativa -->
-        <a href="index.html" class="Volver-galeria">
-            Home</a>
-  </header>
-<br>
-<br>
-<br>
-<br>
-
-<!-- Añadi Flex BOX a mi Galeria  -->
-  <section class="flex-container">
-      <img src="Imagenes/ImagenFlexbox.png" alt="Imagen modelo 1" class="flex-item">
-      <img src="Imagenes/ImagenFlexBox2.png" alt="Imagen modelo 2" class="flex-item">
-      <img src="Imagenes/ImagenFlexBox3.png " alt="Imagen Modelo 3" class="flex-item">
-  </section>
-  <div>
+    <div>
       <p class="flex-text1">BASICS MADE TO LAST.</p>
       <p class="flex-text">Designed in BA.</p>
-  </div>
+    </div>
 
-<br>
-<br>
-<br>
-<br>
+    <br />
+    <br />
+    <br />
+    <br />
 
-  <!-- INICIO Seccion GRID -->
+    <!-- INICIO Seccion Galeria SUMMER 1 -->
+    <section class="container">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img
+              src="Imagenes/Gid1.png"
+              class="card-img-top"
+              style="border-radius: 50px"
+              alt="collage"
+            />
+            <div class="card-body">
+              <h5 class="card-title" style="color: wheat">CLAUDIA - BLACK</h5>
+              <p class="card-text">
+                Claudia presenta un henley acanalado de largo completo con
+                botones completamente funcionales que se encuentra debajo de la
+                cintura natural.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="Imagenes/Grid2.png"
+              class="card-img-top"
+              style="border-radius: 50px"
+              alt="collage"
+            />
+            <div class="card-body">
+              <h5 class="card-title" style="color: wheat">
+                GINA SWEATSHIRT - HEATHER GREY
+              </h5>
+              <p class="card-text">
+                Gina es una sudadera de cuello redondo con forro polar y un
+                cordón elástico ajustable que presenta un estilo recortado.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="Imagenes/grid3.png"
+              class="card-img-top"
+              style="border-radius: 50px"
+              alt="collage"
+            />
+            <div class="card-body">
+              <h5 class="card-title" style="color: wheat">
+                GINA SWEATPANTS - HEATHER WHEAT
+              </h5>
+              <p class="card-text">
+                Gina es un estilo de cintura alta con forro polar que presenta
+                un ajuste relajado, cinturilla elástica y bolsillos en las
+                costuras laterales.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="Imagenes/grid4.png"
+              class="card-img-top"
+              style="border-radius: 50px"
+              alt="collage"
+            />
+            <div class="card-body">
+              <h5 class="card-title" style="color: wheat">CINDY - WHITE</h5>
+              <p class="card-text">
+                Cindy es la camiseta perfecta para todos los días. Esta camiseta
+                clásica presenta un estilo corto que se ajusta a la cintura
+                natural.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="Imagenes/grid5.png"
+              class="card-img-top"
+              style="border-radius: 50px"
+              alt="collage"
+            />
+            <div class="card-body">
+              <h5 class="card-title" style="color: wheat">ELLE - WHITE</h5>
+              <p class="card-text">
+                Elle es un cárdigan acanalado que presenta botones completamente
+                funcionales y un estilo recortado que se encuentra por encima de
+                la cintura natural.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="Imagenes/grid6.png"
+              class="card-img-top"
+              style="border-radius: 50px"
+              alt="collage"
+            />
+            <div class="card-body">
+              <h5 class="card-title" style="color: wheat">DYLAN - BLACK</h5>
+              <p class="card-text">
+                Dylan presenta un estilo acanalado y cuadrado que se encuentra
+                justo por encima de la cintura natural.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <section>
-    <div class="wrapper">
-        <div class="card-container">
-            <div class="image-card perspective-left">
-                <img src="Imagenes/Gid1.png" alt="collage" class="collage">
-            </div>
-        </div>
-        <div>
-            <img src="Imagenes/Grid2.png" alt="collage" class="collage">
-        </div>
-        <div class="card-container">
-            <div class="image-card perspective-right">
-            <img src="Imagenes/grid3.png" alt="collage" class="collage">
-            </div>
-        </div>
-        <div class="card-container">
-            <div class="image-card perspective-left">
-            <img src="Imagenes/grid4.png" alt="collage" class="collage">
-            </div>
-        </div>
-        <div>
-            <img src="Imagenes/grid5.png" alt="collage" class="collage">
-        </div>
-        <div>
-            <div class="image-card perspective-left">
-            <img src="Imagenes/grid6.png" alt="collage" class="collage">
-            </div>
-        </div>
-        <div>
-            <div class="image-card perspective-left">
-            <img src="Imagenes/grid7.png" alt="collage" class="collage">
-            </div>
-        </div>
-           <img src="Imagenes/grid8.png" alt="collage" class="collage">
-        </div>
-     </div>
-   </div>
-  </section>
-
-  <!-- FIN Seccion GRID -->
-</body>
+    <!-- FIN DE SECCION GALERIA SUMMER 1 -->
+  </body>
 </html>
